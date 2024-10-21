@@ -34,11 +34,29 @@ Usage: https://official-joke-api.appspot.com/jokes/:category/:skip/:count
 
 ### Add Joke
 
+Method type - POST
+
 [https://official-joke-api.appspot.com/addJoke](https://official-joke-api.appspot.com/addJoke)
+
+Parameters: type - joke type, setup, punchline
+{
+  "type": "dad",
+  "setup": "What did the fish say when it hit the wall?",
+  "punchline": "Dam."
+}
+
 
 ### Add Rating
 
+Method type - POST
 [https://official-joke-api.appspot.com/addRating](https://official-joke-api.appspot.com/addRating)
+
+Parameters: id - joke id, rating - user rating value
+
+{
+  "id": 0,
+  "rating": 5 
+}
 
 ### Grab joke by id
 
