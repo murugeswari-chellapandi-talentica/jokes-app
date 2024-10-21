@@ -1,7 +1,22 @@
-# Joke Application
+# jokes
 
-## Vue application
-Refer to Readme.md in Vue App folder
+This template should help get you started developing with this app.
 
-## Node server
-Refer to Readme.md in Server folder
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
